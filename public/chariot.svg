@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" fill="#000">
+  <!-- Horses -->
+  <!-- Horse 1 (front) -->
+  <path d="M120 210 Q110 180 100 160 Q95 145 105 135 Q115 128 120 140 L125 155 Q130 150 135 155 Q138 160 130 170 L125 180 Q135 190 140 210 Z"/>
+  <path d="M140 210 L145 280 Q150 290 140 290 L135 280 L130 290 Q120 290 125 280 L130 260 Z"/>
+  <!-- Horse 1 mane -->
+  <path d="M108 150 Q100 140 105 130 Q110 125 115 132" fill="#000" opacity="0.7"/>
+
+  <!-- Horse 2 (middle) -->
+  <path d="M170 215 Q160 185 150 165 Q145 150 155 140 Q165 133 170 145 L175 160 Q180 155 185 160 Q188 165 180 175 L175 185 Q185 195 190 215 Z"/>
+  <path d="M190 215 L195 282 Q200 292 190 292 L185 282 L180 292 Q170 292 175 282 L180 262 Z"/>
+
+  <!-- Horse 3 (back) -->
+  <path d="M220 220 Q210 190 200 170 Q195 155 205 145 Q215 138 220 150 L225 165 Q230 160 235 165 Q238 170 230 180 L225 190 Q235 200 240 220 Z"/>
+  <path d="M240 220 L245 285 Q250 295 240 295 L235 285 L230 295 Q220 295 225 285 L230 265 Z"/>
+
+  <!-- Reins -->
+  <path d="M130 170 Q200 200 310 220" fill="none" stroke="#000" stroke-width="2"/>
+  <path d="M180 175 Q230 200 310 225" fill="none" stroke="#000" stroke-width="2"/>
+  <path d="M230 180 Q260 205 310 230" fill="none" stroke="#000" stroke-width="2"/>
+
+  <!-- Chariot yoke/pole -->
+  <path d="M240 240 L320 240" fill="none" stroke="#000" stroke-width="4"/>
+  <path d="M240 235 L240 245" fill="none" stroke="#000" stroke-width="3"/>
+
+  <!-- Chariot body -->
+  <rect x="320" y="190" width="160" height="100" rx="8" ry="8" opacity="0.9"/>
+  <!-- Chariot side decorative panel -->
+  <rect x="330" y="200" width="140" height="40" rx="4" ry="4" fill="#000" opacity="0.3"/>
+  <!-- Chariot arch/canopy support -->
+  <path d="M340 190 Q400 130 460 190" fill="none" stroke="#000" stroke-width="5"/>
+  <!-- Canopy top -->
+  <path d="M335 192 Q400 120 465 192" fill="#000" opacity="0.4"/>
+  <!-- Chariot front curve -->
+  <path d="M320 200 Q310 240 320 290" fill="#000" stroke="#000" stroke-width="2"/>
+  <!-- Chariot bottom -->
+  <path d="M320 290 L490 290" fill="none" stroke="#000" stroke-width="3"/>
+
+  <!-- Chariot wheel (large, spoked) -->
+  <circle cx="420" cy="300" r="45" fill="none" stroke="#000" stroke-width="5"/>
+  <circle cx="420" cy="300" r="8" fill="#000"/>
+  <!-- Wheel spokes -->
+  <line x1="420" y1="258" x2="420" y2="342" stroke="#000" stroke-width="2.5"/>
+  <line x1="378" y1="300" x2="462" y2="300" stroke="#000" stroke-width="2.5"/>
+  <line x1="390" y1="270" x2="450" y2="330" stroke="#000" stroke-width="2.5"/>
+  <line x1="450" y1="270" x2="390" y2="330" stroke="#000" stroke-width="2.5"/>
+  <!-- Wheel rim detail -->
+  <circle cx="420" cy="300" r="38" fill="none" stroke="#000" stroke-width="1.5" opacity="0.5"/>
+
+  <!-- Krishna (charioteer, standing front) -->
+  <!-- Head -->
+  <circle cx="365" cy="160" r="14" fill="#000"/>
+  <!-- Crown/mukut -->
+  <path d="M352 152 Q358 135 365 128 Q372 135 378 152" fill="#000"/>
+  <circle cx="365" cy="132" r="3" fill="#000"/>
+  <!-- Body -->
+  <path d="M355 174 L352 230 L360 230 L365 200 L370 230 L378 230 L375 174 Z"/>
+  <!-- Arms (holding reins) -->
+  <path d="M355 185 Q340 200 310 225" fill="none" stroke="#000" stroke-width="4" stroke-linecap="round"/>
+  <path d="M375 185 Q360 210 340 220" fill="none" stroke="#000" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Arjuna (warrior, standing behind) -->
+  <!-- Head -->
+  <circle cx="435" cy="155" r="13" fill="#000"/>
+  <!-- Helmet -->
+  <path d="M423 150 Q428 138 435 134 Q442 138 447 150" fill="#000"/>
+  <!-- Body -->
+  <path d="M426 168 L423 228 L431 228 L435 198 L439 228 L447 228 L444 168 Z"/>
+  <!-- Arm holding bow -->
+  <path d="M426 180 Q415 190 405 210" fill="none" stroke="#000" stroke-width="4" stroke-linecap="round"/>
+  <!-- Bow -->
+  <path d="M400 175 Q390 210 405 245" fill="none" stroke="#000" stroke-width="3"/>
+  <line x1="400" y1="175" x2="405" y2="245" stroke="#000" stroke-width="1.5"/>
+  <!-- Raised arm -->
+  <path d="M444 180 Q455 170 460 160" fill="none" stroke="#000" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Flag/pennant on chariot -->
+  <line x1="470" y1="290" x2="470" y2="110" stroke="#000" stroke-width="3"/>
+  <path d="M470 110 Q490 120 470 135" fill="#000" opacity="0.7"/>
+
+  <!-- Ground line -->
+  <line x1="60" y1="345" x2="540" y2="345" stroke="#000" stroke-width="2" opacity="0.3"/>
+</svg>
